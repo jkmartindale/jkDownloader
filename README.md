@@ -4,19 +4,19 @@ A web browser bookmarklet making inconvenient or impossible downloads possible w
 I created jkDownloader because music download gates suck and harm both artists and fans. jkDownloader gives you the power to support artists in ways that *you* choose, as well as to download things that might not be available any other way. That being said, **please use jkDownloader responsibly**.
 
 ## Supported Websites
-* **Artist Intelligence:** Forces email verification on a track instead of using SoundCloud login. The email address doesn't have to be valid.
-* **Beatport Play Remixes:** Download a remix from its individual page.
-* **Beatport Play Stems:** Download stems from the remix contest page.
-* **EDMT:** Download a track without logging in with SoundCloud.
-* **Hive:** Download tracks without even needing a Facebook account.
-* **MediaFire:** Download without triggering ads.
+* **Artist Intelligence:** Their self-hosted downloads use cookie magic I couldn't figure out, so jkDownloader forces email "verification". It doesn't have to be a valid email address.
+* **Beatport Play Remixes:** Remixes can be downloaded from their individual pages. Note that sometimes Beatport forgets the .mp3 extension.
+* **Beatport Play Stems:** Downloads stems from a contest page if you are logged in.
+* **EDMT:** Bypasses SoundCloud login.
+* **Hive:** Downloads songs without the need for even a Facebook account. A little glitchy.
+* **MediaFire:** Downloads files without opening ads.
 * **Show.co:** Download email-for-download stuff, even when it's unavailable.
-* **SoundCloud:** Download music from track pages. The track download URL is used if available; otherwise the streaming URL is used.
-* **SoundCloud Art:** Expand a track's art and activate jkDownloader, and the art will be downloaded instead. This is currently not possible on mobile browsers due to SoundCloud's mobile website. Any suggestions for incorporating an alternate way to trigger an art download in jkDownloader is appreciated.
+* **SoundCloud:** jkDownloader uses the download link if it exists and the SoundCloud stream otherwise.
+* **SoundCloud Art:** Expand the cover art to download it instead of the audio. This is currently not possible on mobile browsers due to SoundCloud's mobile website. Any suggestions for incorporating an alternate way to trigger an art download in jkDownloader is appreciated.
 * **Spinnin' Premium:** jkDownloader attempts to find the file on Spinnin Records' Amazon hosting.
-* **Spinnin' Talent Pool:** Download tracks via a browser hijack I'm a little proud of.
-* **Wavo Stems:** Download stems directly, sometimes even after a remix contest has ended. Sound familiar? The code was based off [wavo-parser](https://github.com/jkmartindale/wavo-parser).
-* **Zippyshare:** Download without triggering ads.
+* **Spinnin' Talent Pool:** Downloads tracks via a browser hijack I'm a little proud of.
+* **Wavo Stems:** Downloads stems directly, sometimes even after a remix contest has ended. Sound familiar? The code was based off [wavo-parser](https://github.com/jkmartindale/wavo-parser).
+* **Zippyshare:** Downloads files without opening ads.
 
 ## Unsupported Websites
 These are websites I have unsuccessfully attempted to support in jkDownloader. Any help with them is greatly appreciated.
