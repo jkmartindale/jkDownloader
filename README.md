@@ -9,7 +9,7 @@ I created jkDownloader because music download gates suck and harm both artists a
 * **Beatport Play Stems:** Download stems from the remix contest page.
 * **EDMT:** Download a track without logging in with SoundCloud.
 * **Hive:** Download tracks without even needing a Facebook account.
-* **Mediafire:** Download without triggering ads.
+* **MediaFire:** Download without triggering ads.
 * **SoundCloud:** Download music from track pages. The track download URL is used if available; otherwise the streaming URL is used.
 * **SoundCloud Art:** Expand a track's art and activate jkDownloader, and the art will be downloaded instead. This is currently not possible on mobile browsers due to SoundCloud's mobile website. Any suggestions for incorporating an alternate way to trigger an art download in jkDownloader is appreciated.
 * **Spinnin' Premium:** jkDownloader attempts to find the file on Spinnin Records' Amazon hosting.
@@ -29,3 +29,4 @@ These are websites I have unsuccessfully attempted to support in jkDownloader. A
 * **jkDownloader.human.js:** The human-readable source showcasing how bad my scripting style is.
 * **jkDownloader.js:** Minified jkDownloader compiled with Google's Closure Compiler set to SIMPLE_OPTIMIZATIONS because I'm too lazy to figure out how to get ADVANCED_OPTIMIZATIONS to work.
 * **loader.js:** The actual bookmarklet JavaScript, using code I stole from somewhere I forgot. All it does is inject jkDownloader.js into the current page, because then you don't have to reinstall the bookmarklet every time I fix a typo or something.
+* **tests.md:** Tests I use to make sure jkDownloader works like it should.
