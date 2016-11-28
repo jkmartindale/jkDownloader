@@ -1,1 +1,1 @@
-javascript:(function(){var jkDownloader=document.createElement("script");jkDownloader.setAttribute("src","https://jkmartindale.com/jkDownloader.js");document.body.appendChild(jkDownloader)}());
+javascript:(function(){var jkDownloader=document.createElement("script");jkDownloader.setAttribute("src","https://raw.githubusercontent.com/jkmartindale/jkDownloader/master/jkDownloader.human.js");document.body.appendChild(jkDownloader)}());
