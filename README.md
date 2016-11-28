@@ -17,10 +17,15 @@ I created jkDownloader because music download gates suck and harm both artists a
 * **Wavo Stems:** Download stems directly, sometimes even after a remix contest has ended. Sound familiar? The code was based off [wavo-parser](https://github.com/jkmartindale/wavo-parser).
 * **Zippyshare:** Download without triggering ads.
 
-##Unsupported Websites
+## Unsupported Websites
 These are websites I have unsuccessfully attempted to support in jkDownloader. Any help with them is greatly appreciated.
 * Artist Intelligence (one click)
 * PRDCR
 * Stereoload
 * The Artist Union
 * Toneden
+
+## Repository Files
+* **jkDownloader.human.js:** The human-readable source showcasing how bad my scripting style is.
+* **jkDownloader.js:** Minified jkDownloader compiled with Google's Closure Compiler set to SIMPLE_OPTIMIZATIONS because I'm too lazy to figure out how to get ADVANCED_OPTIMIZATIONS to work.
+* **loader.js:** The actual bookmarklet JavaScript, using code I stole from somewhere I forgot. All it does is inject jkDownloader.js into the current page, because then you don't have to reinstall the bookmarklet every time I fix a typo or something.
