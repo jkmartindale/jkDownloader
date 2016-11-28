@@ -52,6 +52,16 @@ else if (/https:\/\/www\.hive\.co\/downloads\/download\/\d+\/spotlight\//.test(w
 	document.getElementById("big-continue-btn").click();
 	window.location.href = window.NEXT_URL;
 }
+else if (/https?:\/\/show\.co\/\w+/.test(window.location.href))
+{
+	var emailAddress = prompt("Enter the email address you'd like to receive the download link at.");
+	if (emailAddress !== null)
+	{
+		var connection = new XMLHttpRequest();
+		connection.open("POST", "https://api.show.co/campaigns/email-for-download/" + JSON.parse(document.getElementById("show-config").textContent).id + "/email");
+		connection.send('{"data":{"email":"' + emailAddress + '"},"analytics":{}}');
+	}
+}
 else if (/https?:\/\/artistintelligence\.agency\/artist\/\S/.test(window.location.href))
 {
 	if (document.getElementsByClassName("connected").length === 1)

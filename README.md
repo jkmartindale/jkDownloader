@@ -10,6 +10,7 @@ I created jkDownloader because music download gates suck and harm both artists a
 * **EDMT:** Download a track without logging in with SoundCloud.
 * **Hive:** Download tracks without even needing a Facebook account.
 * **MediaFire:** Download without triggering ads.
+* **Show.co:** Download email-for-download stuff, even when it's unavailable.
 * **SoundCloud:** Download music from track pages. The track download URL is used if available; otherwise the streaming URL is used.
 * **SoundCloud Art:** Expand a track's art and activate jkDownloader, and the art will be downloaded instead. This is currently not possible on mobile browsers due to SoundCloud's mobile website. Any suggestions for incorporating an alternate way to trigger an art download in jkDownloader is appreciated.
 * **Spinnin' Premium:** jkDownloader attempts to find the file on Spinnin Records' Amazon hosting.
