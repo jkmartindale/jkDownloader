@@ -62,6 +62,22 @@ else if (/https?:\/\/show\.co\/\w+/.test(window.location.href))
 		connection.send('{"data":{"email":"' + emailAddress + '"},"analytics":{}}');
 	}
 }
+else if (/https?:\/\/hypem.com\/track\/\w+\/.+/.test(window.location.href))
+{
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function()
+	{
+		if (request.readyState === XMLHttpRequest.DONE)
+		{
+			if (request.status === 200)
+				window.open(JSON.parse(request.responseText).url);
+			else
+				window.alert("Error " + request.status);
+		}
+	};
+	request.open("GET", "http://hypem.com/serve/source/" + window.displayList.tracks[0].id + "/" + window.displayList.tracks[0].key);
+	request.send();
+}
 else if (/https?:\/\/artistintelligence\.agency\/artist\/\S/.test(window.location.href))
 {
 	if (document.getElementsByClassName("connected").length === 1)

@@ -9,6 +9,7 @@ I created jkDownloader because music download gates suck and harm both artists a
 * **Beatport Play Stems:** Downloads stems from a contest page if you are logged in.
 * **EDMT:** Bypasses SoundCloud login.
 * **Hive:** Downloads songs without the need for even a Facebook account. A little glitchy.
+* **Hype Machine:** Downloads from individual track pages.
 * **MediaFire:** Downloads files without opening ads.
 * **Show.co:** Download email-for-download stuff, even when it's unavailable.
 * **SoundCloud:** jkDownloader uses the download link if it exists and the SoundCloud stream otherwise.

@@ -5,6 +5,7 @@ Tests to make sure jkDownloader is legit
 * [Beatport Play Stems](http://play.beatport.com/contests/ron-costa-berige/)
 * [EDMT](http://www.edmt.center/74673-Sander-van-Doorn-Martin-Garrix-DVBBS-Gold-Skies-Dean-Mickoski-Remix)
 * [Hive](https://www.hive.co/downloads/download/34737/spotlight/)
+* [Hype Machine](http://hypem.com/track/2jvdd/KATY+PERRY+-+CALIFORNIA+GIRLS)
 * [MediaFire](http://www.mediafire.com/file/u8xq7g9n3d5cgp3/Azedia+-+Agony+%28Miklarin+Remix%29.mp3)
 * [Show.co](https://show.co/6OXDC8J)
 * [SoundCloud](https://soundcloud.com/mrwaddles/trouble-funky-fresh)
