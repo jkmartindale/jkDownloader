@@ -32,5 +32,3 @@ These are websites I have unsuccessfully attempted to support in jkDownloader. A
 * **jkDownloader.js:** Minified jkDownloader compiled with Google's Closure Compiler set to SIMPLE_OPTIMIZATIONS because I'm too lazy to figure out how to get ADVANCED_OPTIMIZATIONS to work.
 * **loader.js:** The actual bookmarklet JavaScript, using code I stole from somewhere I forgot. All it does is inject jkDownloader.js into the current page, because then you don't have to reinstall the bookmarklet every time I fix a typo or something.
 * **tests.md:** Tests I use to make sure jkDownloader works like it should.
-
-<a href="https://app.codesponsor.io/link/VdKJLdwgqXqJvpCoxBCBDnWk/jkmartindale/jkDownloader" rel="nofollow"><img src="https://app.codesponsor.io/embed/VdKJLdwgqXqJvpCoxBCBDnWk/jkmartindale/jkDownloader.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
